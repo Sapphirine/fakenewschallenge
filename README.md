@@ -15,7 +15,7 @@
 Given a headline and a body concerning a subject, determine if their views agree or disagree with each other, or, are simply unrelated. 
 
 ## Approaches
-
+In this project, we mainly investigate the effects of deep neural network models partially because previous competition participants have shown that deep neural network models can often outperform rule-based or decision tree models. Also, since the goal of the project is to applying the model in the scale of big data, the massive amount of news data should provide enough training data for the model. Here, we mainly introduce three types of neural networks: Multilayer Perceptron (MLP), Recurrent Neural Network (RNN) and Bidirectional Encoder Representations from Transformers (BERT) with MLP.
 
 ## Running instruction
 To run the demo, you need to first fill in the dict that contains API keys with your actual keys.  Also, in the main function, you can specify which port you want Flask to use.  Then to run the application, you can simply run 
