@@ -49,7 +49,7 @@ loss_function.hybridize(static_alloc=True)
 metric = mx.metric.Accuracy()
 
 # Load data
-data_train = dataset.DatasetWrapper('../data/bert_format/train.csv', field_separator = Splitter(','))
+data_train = dataset.DatasetWrapper('../../data/bert_format/train.csv', field_separator = Splitter(','))
 
 # sample_id = 0
 # # sentence a
